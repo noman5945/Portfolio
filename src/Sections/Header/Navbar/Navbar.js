@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <div className="">
       <ul className=" hidden lg:flex flex-row">
-        {sections.map((section) => {
-          return <Items options={section}></Items>;
+        {sections.map((section, index) => {
+          return <Items key={index} options={section}></Items>;
         })}
       </ul>
     </div>
