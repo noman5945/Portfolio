@@ -5,14 +5,12 @@ import Hamburger from "../../../Icons/Hamburger/Hamburger";
 import CloseIcon from "../../../Icons/CloseIcon/CloseIcon";
 
 const Header = () => {
-  const [navDisplay, setNavDisplay] = useState(true);
+  const [navDisplay, setNavDisplay] = useState(false);
   const handleNavDisplay = () => {
     if (navDisplay) {
       setNavDisplay(false);
-      document.querySelector("nav").setAttribute("className", "hidden");
     } else {
       setNavDisplay(true);
-      document.querySelector("nav").setAttribute("className", "");
     }
   };
   return (
@@ -20,12 +18,12 @@ const Header = () => {
       <div className="flex flex-row justify-between items-center">
         <HeaderTitle></HeaderTitle>
         {navDisplay ? (
-          <Hamburger action={handleNavDisplay}></Hamburger>
-        ) : (
           <CloseIcon action={handleNavDisplay}></CloseIcon>
+        ) : (
+          <Hamburger action={handleNavDisplay}></Hamburger>
         )}
       </div>
-      <Navbar></Navbar>
+      <Navbar displayState={navDisplay}></Navbar>
     </div>
   );
 };

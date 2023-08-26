@@ -6,14 +6,14 @@ const CloseIcon = ({ action }) => {
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       stroke="currentColor"
-      class="w-6 h-6 lg:hidden cursor-pointer m-2"
+      className="w-6 h-6 lg:hidden cursor-pointer m-2"
       onClick={action}
     >
       <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M6 18L18 6M6 6l12 12"
       />
     </svg>

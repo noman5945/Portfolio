@@ -19,7 +19,7 @@ const SwitchTheme = () => {
     }
   };
   return (
-    <div className="mx-5 text-center flex flex-row">
+    <div className="m-3 text-center flex flex-row">
       <p className=" mr-2">{darkTheme ? "Dark" : "Light"}</p>
       <input
         type="checkbox"
