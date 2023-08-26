@@ -1,5 +1,6 @@
 import React from "react";
 import Items from "./Items";
+import SwitchTheme from "../SwitchTheme/SwitchTheme";
 
 const Navbar = () => {
   const sections = [
@@ -10,13 +11,14 @@ const Navbar = () => {
     { title: "Contact", link: "" },
   ];
   return (
-    <div className="">
-      <ul className=" hidden lg:flex flex-row">
+    <nav>
+      <ul className=" flex flex-col my-3 lg:flex lg:flex-row lg:mx-3">
         {sections.map((section, index) => {
           return <Items key={index} options={section}></Items>;
         })}
+        <SwitchTheme></SwitchTheme>
       </ul>
-    </div>
+    </nav>
   );
 };
 

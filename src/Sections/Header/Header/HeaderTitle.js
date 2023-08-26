@@ -2,7 +2,7 @@ import React from "react";
 
 const HeaderTitle = () => {
   return (
-    <div>
+    <div className="m-2">
       <h1>Portfolio</h1>
     </div>
   );
