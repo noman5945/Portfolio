@@ -1,0 +1,14 @@
+#navLinks::after {
+  position: absolute;
+  content: "";
+  background-color: blueviolet;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -5px;
+  transition-duration: 300ms;
+}
+
+#navLinks:hover::after {
+  width: 100%;
+}

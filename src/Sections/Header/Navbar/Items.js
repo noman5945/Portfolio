@@ -1,8 +1,16 @@
 import React from "react";
+import "./Item.css";
 
 const Items = ({ options }) => {
   const { title, link } = options;
-  return <li className=" m-2 lg:m-3">{title}</li>;
+  return (
+    <li className=" font-semibold font-sans m-2   lg:m-3">
+      <a id="navLinks" href={link} className=" relative">
+        {" "}
+        {title}
+      </a>
+    </li>
+  );
 };
 
 export default Items;

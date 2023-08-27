@@ -3,7 +3,7 @@ import Header from "./Sections/Header/Header/Header";
 
 function App() {
   return (
-    <div>
+    <div className="container mx-auto">
       <Header></Header>
     </div>
   );
