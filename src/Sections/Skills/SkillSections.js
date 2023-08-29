@@ -3,7 +3,7 @@ import SkillItems from "./SkillItems";
 
 const SkillSections = ({ sectName, languages }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col my-5">
       <p className=" text-2xl lg:text-3xl my-5 text-center">{sectName}</p>
       <div className=" grid lg:grid-cols-3 grid-cols-1 justify-center lg:gap-6">
         {languages.map((language, index) => {
