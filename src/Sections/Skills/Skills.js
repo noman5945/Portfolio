@@ -50,6 +50,39 @@ const Skills = () => {
       image:
         "https://ph-files.imgix.net/829bdf09-bf73-4976-ae80-8eb1ec6b455d.png?auto=format",
     },
+    {
+      name: "Bootstrap CSS",
+      image:
+        "https://img.freepik.com/premium-vector/bootstrap-icon-b-letter-logo_781017-7.jpg",
+    },
+    {
+      name: "Node.js",
+      image:
+        "https://ih1.redbubble.net/image.367014180.4385/st,small,507x507-pad,600x600,f8f8f8.u3.jpg",
+    },
+    {
+      name: "Django",
+      image:
+        "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T1459A839PA3861PT28D1007202637W10000H3483/views/1,width=800,height=800,appearanceId=839,backgroundColor=F2F2F2/django-logo-sticker.jpg",
+    },
+  ];
+
+  const database = [
+    {
+      name: "MongoDB",
+      image:
+        "https://findlogovector.com/wp-content/uploads/2022/04/mongodb-logo-vector-2022.png",
+    },
+    {
+      name: "MSSQL",
+      image:
+        "https://logowik.com/content/uploads/images/microsoft-sql-server4529.jpg",
+    },
+    {
+      name: "Oracle",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Oracle_Logo.svg/640px-Oracle_Logo.svg.png",
+    },
   ];
 
   return (
@@ -65,6 +98,10 @@ const Skills = () => {
         <SkillSections
           sectName={"Web Development"}
           languages={webDev}
+        ></SkillSections>
+        <SkillSections
+          sectName={"Database"}
+          languages={database}
         ></SkillSections>
       </div>
     </div>
