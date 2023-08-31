@@ -88,7 +88,7 @@ const Skills = () => {
   return (
     <div
       id="SkillsSection"
-      className=" relative top-[10%] mt-3  flex  flex-col flex-auto w-[100%] h-[5490px]  lg:h-[135rem]   justify-center"
+      className=" relative top-[10%] mt-3  flex  flex-col flex-auto w-[100%] h-[5490px]  lg:h-[135rem] items-center justify-center"
     >
       <div className=" absolute flex flex-col justify-center top-[2%]  left-[15%] md:left-[10%] lg:left-[20%] ">
         <SkillSections

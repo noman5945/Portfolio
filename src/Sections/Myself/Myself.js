@@ -3,7 +3,7 @@ import mypic from "../../assets/rsz_mypic.jpeg";
 
 const Myself = () => {
   const about_me =
-    "Hello there, It's Adbullah Al Noman here.I am a passionate programmer who loves to develop web apps and learn new technologies.I can handle both frontend and backend development of a project also manage Database either its SQL/NoSQL.";
+    "Hello there, It's Abdullah Al Noman here.I am a passionate programmer who loves to develop web apps and learn new technologies.I can handle both frontend and backend development of a project also manage Database either its SQL/NoSQL.";
   return (
     <div
       id="mySelf"

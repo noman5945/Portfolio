@@ -6,7 +6,7 @@ const Navbar = ({ displayState }) => {
   const sections = [
     { title: "Myself", link: "#mySelf" },
     { title: "Skills", link: "#SkillsSection" },
-    { title: "Projects", link: "/" },
+    { title: "Projects", link: "#projects" },
     { title: "Education", link: "#education" },
     { title: "Contact", link: "/" },
   ];

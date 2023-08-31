@@ -1,7 +1,9 @@
 import "./App.css";
 import Education from "./Sections/Education/Education";
+import Footer from "./Sections/Footer/Footer";
 import Header from "./Sections/Header/Header/Header";
 import Myself from "./Sections/Myself/Myself";
+import Projects from "./Sections/Projects/Projects";
 import Skills from "./Sections/Skills/Skills";
 
 function App() {
@@ -10,7 +12,9 @@ function App() {
       <Header></Header>
       <Myself></Myself>
       <Skills></Skills>
+      <Projects></Projects>
       <Education></Education>
+      <Footer></Footer>
     </div>
   );
 }
