@@ -88,9 +88,9 @@ const Skills = () => {
   return (
     <div
       id="SkillsSection"
-      className=" relative top-[10%] mt-3 flex flex-col w-[100%] max-h-screen lg:h-screen  justify-center"
+      className=" relative top-[10%] mt-3  flex  flex-col flex-auto w-[100%] h-[5490px]  lg:h-[135rem]   justify-center"
     >
-      <div className=" absolute flex flex-col justify-center top-[20%]  left-[15%] md:left-[10%] lg:left-[20%] ">
+      <div className=" absolute flex flex-col justify-center top-[2%]  left-[15%] md:left-[10%] lg:left-[20%] ">
         <SkillSections
           sectName={"Programming Languages"}
           languages={languages}

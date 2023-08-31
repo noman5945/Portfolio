@@ -5,7 +5,7 @@ const SkillItems = ({ skill }) => {
   return (
     <div className=" block">
       <img
-        className=" shadow-lg rounded-md w-[300px] h-[300px]"
+        className=" shadow-lg rounded-md w-[280px] h-[280px]"
         src={image}
         alt={name}
       />

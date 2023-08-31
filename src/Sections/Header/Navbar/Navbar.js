@@ -7,7 +7,7 @@ const Navbar = ({ displayState }) => {
     { title: "Myself", link: "#mySelf" },
     { title: "Skills", link: "#SkillsSection" },
     { title: "Projects", link: "/" },
-    { title: "Education", link: "/" },
+    { title: "Education", link: "#education" },
     { title: "Contact", link: "/" },
   ];
   return (
