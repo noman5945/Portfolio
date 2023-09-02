@@ -1,4 +1,5 @@
 import "./App.css";
+import Contact from "./Sections/Contact/Contact";
 import Education from "./Sections/Education/Education";
 import Footer from "./Sections/Footer/Footer";
 import Header from "./Sections/Header/Header/Header";
@@ -14,6 +15,7 @@ function App() {
       <Skills></Skills>
       <Projects></Projects>
       <Education></Education>
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   );
