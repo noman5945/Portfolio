@@ -8,7 +8,7 @@ const Navbar = ({ displayState }) => {
     { title: "Skills", link: "#SkillsSection" },
     { title: "Projects", link: "#projects" },
     { title: "Education", link: "#education" },
-    { title: "Contact", link: "/" },
+    { title: "Contact", link: "#contact" },
   ];
   return (
     <nav
