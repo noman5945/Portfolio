@@ -2,8 +2,8 @@ import React from "react";
 import Facebook from "../../Icons/Facebook/Facebook";
 import SocialMedia from "./SocialMedia";
 import LinkedIn from "../../Icons/LinkedIn/LinkedIn";
-import Instagram from "../../Icons/Instagram/Instagram";
 import LeetCode from "../../Icons/LeetCode/LeetCode";
+import GithubIcon from "../../Icons/GithubIcon/GithubIcon";
 
 const Contact = () => {
   const connects = [
@@ -13,14 +13,14 @@ const Contact = () => {
       link: "https://www.linkedin.com/in/abdullah-al-noman-225680217",
     },
     {
-      platform: "Facebook",
+      platform: "Gmail",
       Icon: <Facebook></Facebook>,
       link: "https://www.facebook.com/noman5945",
     },
     {
-      platform: "Instagram",
-      Icon: <Instagram></Instagram>,
-      link: "https://www.instagram.com/shinigami_ryuk_yagami/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D&fbclid=IwAR002vwV0Rmot0zpsluQCKujSr5ysIf5I2a6o57Lb3zWpIQQQQU9wadZ-nA",
+      platform: "Github",
+      Icon: <GithubIcon></GithubIcon>,
+      link: "https://github.com/noman27",
     },
     {
       platform: "LeetCode",
@@ -29,7 +29,7 @@ const Contact = () => {
     },
   ];
   return (
-    <div id="contact" className=" block max-h-[1050px] lg:h-screen">
+    <div id="contact" className=" block max-h-[1120px] lg:h-screen">
       <div className=" flex flex-col items-center">
         <p className=" my-3 text-3xl">Connect With Me Directly</p>
         <div className=" my-12 lg:my-2 grid grid-cols-1 lg:grid-cols-2 lg:gap-3   gap-2  h-8">
@@ -38,7 +38,6 @@ const Contact = () => {
             type="text"
             placeholder=" Your Name"
           />
-
           <input
             type="text"
             placeholder=" Email"
@@ -47,7 +46,9 @@ const Contact = () => {
         </div>
         <div className=" max-w-fit my-7">
           <textarea
-            className=" textarea textarea-bordered  textarea-lg w-full max-w-xs   bg-slate-300"
+            rows={4}
+            cols={40}
+            className=" textarea textarea-bordered  textarea-lg w-full max-w-sm lg:max-w-[100%]   bg-slate-300"
             placeholder="Write something"
           ></textarea>
         </div>
