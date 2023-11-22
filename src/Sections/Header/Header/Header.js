@@ -14,7 +14,7 @@ const Header = () => {
     }
   };
   return (
-    <div className=" my-1 flex flex-col lg:flex lg:flex-row lg:justify-between shadow-md">
+    <div className=" flex flex-col lg:flex lg:flex-row lg:justify-between shadow-lg fixed z-10 bg-white w-[100%]">
       <div className="container mx-3 flex flex-row justify-between items-center">
         <HeaderTitle></HeaderTitle>
         {navDisplay ? (

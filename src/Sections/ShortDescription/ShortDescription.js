@@ -12,13 +12,14 @@ const ShortDescription = () => {
     aTag.remove();
   };
   return (
-    <div className=" block max-h-screen lg:h-[650px] bg-orange-50">
-      <div className=" container flex flex-col align-middle justify-center  mx-auto pt-[12%]">
-        <p className=" text-center text-lg">Hi,I am Abdullah Al Noman</p>
-        <p className=" text-center text-4xl font-bold">I am a Developer</p>
+    <div className=" relative block max-h-screen lg:h-[700px] bg-orange-50 w-[100%] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+      <div className=" container text-white text-center flex flex-col align-middle justify-center  mx-auto pt-[12%] p-5">
+        <p className="  text-lg my-3">👋,I am Abdullah Al Noman</p>
+        <p className="  text-5xl font-bold my-3">I am a Developer</p>
+        <p className="  text-lg my-3">Based in Dhaka,Bangladesh</p>
         <button
           onClick={() => downloadCV(url)}
-          className=" my-2 btn btn-success w-40 mx-[45%] "
+          className=" my-2 btn btn-success w-40 mx-[31%] lg:mx-[45%] "
         >
           Download CV
         </button>

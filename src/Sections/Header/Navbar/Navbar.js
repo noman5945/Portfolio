@@ -4,7 +4,7 @@ import SwitchTheme from "../SwitchTheme/SwitchTheme";
 
 const Navbar = ({ displayState }) => {
   const sections = [
-    { title: "Myself", link: "#mySelf" },
+    { title: "About", link: "#mySelf" },
     { title: "Skills", link: "#SkillsSection" },
     { title: "Services", link: "#education" },
     { title: "Projects", link: "#projects" },

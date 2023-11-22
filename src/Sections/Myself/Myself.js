@@ -7,13 +7,13 @@ const Myself = () => {
   return (
     <div
       id="mySelf"
-      className="  max-h-screen w-[100%] mt-5  lg:h-screen flex justify-center"
+      className="  max-h-screen w-[100%] mt-[20%] lg:mt-[3%]  lg:h-screen flex justify-center"
     >
       {" "}
-      <div className=" container mx-auto  mt-[25px] top-[35%] flex flex-col justify-center lg:flex-row-reverse">
+      <div className=" container mx-auto flex flex-col justify-center lg:flex-row-reverse lg:items-center">
         <div className=" mb-[50px]">
           <img
-            className=" rounded-full mb-7 lg:mt-[-50px] h-[400px] w-[400px]"
+            className=" rounded-full mb-7 lg:mt-[50px] h-[400px] w-[400px]"
             src={mypic}
             alt=""
           />
