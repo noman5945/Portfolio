@@ -13,14 +13,14 @@ const Contact = () => {
       link: "https://www.linkedin.com/in/abdullah-al-noman-225680217",
     },
     {
-      platform: "Gmail",
+      platform: "Facebook",
       Icon: <Facebook></Facebook>,
       link: "https://www.facebook.com/noman5945",
     },
     {
       platform: "Github",
       Icon: <GithubIcon></GithubIcon>,
-      link: "https://github.com/noman27",
+      link: "https://github.com/noman5945",
     },
     {
       platform: "LeetCode",

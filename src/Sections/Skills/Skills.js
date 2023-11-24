@@ -61,9 +61,9 @@ const Skills = () => {
         "https://ih1.redbubble.net/image.367014180.4385/st,small,507x507-pad,600x600,f8f8f8.u3.jpg",
     },
     {
-      name: "Django",
+      name: ". NET",
       image:
-        "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T1459A839PA3861PT28D1007202637W10000H3483/views/1,width=800,height=800,appearanceId=839,backgroundColor=F2F2F2/django-logo-sticker.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/2048px-Microsoft_.NET_logo.svg.png",
     },
   ];
 
@@ -88,21 +88,26 @@ const Skills = () => {
   return (
     <div
       id="SkillsSection"
-      className=" relative top-[10%] mt-3  flex  flex-col flex-auto w-[100%] h-[5490px]  lg:h-[135rem] items-center justify-center"
+      className=" bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col w-[100%]  lg:h-[70rem] items-center justify-center"
     >
-      <div className=" absolute flex flex-col justify-center top-[2%]  left-[15%] md:left-[10%] lg:left-[20%] ">
-        <SkillSections
-          sectName={"Programming Languages"}
-          languages={languages}
-        ></SkillSections>
-        <SkillSections
-          sectName={"Web Development"}
-          languages={webDev}
-        ></SkillSections>
-        <SkillSections
-          sectName={"Database"}
-          languages={database}
-        ></SkillSections>
+      <div className="  mt-3">
+        <div className=" text-center">
+          <p className=" text-3xl my-5">Skills</p>
+        </div>
+        <div className="  flex flex-col justify-center ">
+          <SkillSections
+            sectName={"Programming Languages"}
+            languages={languages}
+          ></SkillSections>
+          <SkillSections
+            sectName={"Web Development"}
+            languages={webDev}
+          ></SkillSections>
+          <SkillSections
+            sectName={"Database"}
+            languages={database}
+          ></SkillSections>
+        </div>
       </div>
     </div>
   );
