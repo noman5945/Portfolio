@@ -29,30 +29,37 @@ const Contact = () => {
     },
   ];
   return (
-    <div id="contact" className=" block max-h-[1120px] lg:h-screen">
-      <div className=" flex flex-col items-center">
-        <p className=" my-3 text-3xl">Connect With Me Directly</p>
-        <div className=" my-12 lg:my-2 grid grid-cols-1 lg:grid-cols-2 lg:gap-3   gap-2  h-8">
-          <input
-            className=" input input-bordered w-full max-w-xs  bg-slate-300 focus:border-none"
-            type="text"
-            placeholder=" Your Name"
-          />
-          <input
-            type="text"
-            placeholder=" Email"
-            className=" input input-bordered w-full max-w-xs bg-slate-300 focus:border-none"
-          />
+    <div
+      id="contact"
+      className=" block p-10 mx-6 max-h-[1120px] lg:h-[750px] lg:flex lg:flex-row lg:items-center lg:justify-center lg:mx-10"
+    >
+      <form className=" block">
+        <div className=" flex flex-col items-center">
+          <p className=" my-3 text-3xl">Get In Touch</p>
+          <div className=" my-12 lg:my-2 grid grid-cols-1 lg:grid-cols-6 lg:gap-3   gap-2  h-8 ">
+            <input
+              className=" bg-inherit border-b border-teal-500 py-2 w-full text-gray-700 mr-3  px-2 leading-tight focus:outline-none lg:col-span-3"
+              type="text"
+              placeholder=" Your Name"
+            />
+            <input
+              type="text"
+              placeholder=" Email"
+              className=" bg-inherit border-b border-teal-500 py-2 w-full text-gray-700 mr-3  px-2 leading-tight focus:outline-none lg:col-span-3"
+            />
+          </div>
+          <div className=" max-w-fit my-7">
+            <textarea
+              rows={4}
+              cols={55}
+              className="bg-inherit border-b border-teal-500 focus:outline-none max-w-sm lg:max-w-[100%]   bg-slate-300"
+              placeholder="Write something"
+            ></textarea>
+          </div>
+          <button className=" btn btn-success">SEND</button>
         </div>
-        <div className=" max-w-fit my-7">
-          <textarea
-            rows={4}
-            cols={40}
-            className=" textarea textarea-bordered  textarea-lg w-full max-w-sm lg:max-w-[100%]   bg-slate-300"
-            placeholder="Write something"
-          ></textarea>
-        </div>
-        <button className=" btn btn-success">SEND</button>
+      </form>
+      <div className=" flex flex-col items-center lg:p-4">
         <p className=" my-4 text-center text-3xl">
           Get Connected via Social Media
         </p>

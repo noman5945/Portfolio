@@ -34,7 +34,7 @@ const Education = () => {
       id="education"
       className="  relative flex flex-col items-center justify-center max-h-screen top-5 my-8 w-[100%] lg:h-screen p-3"
     >
-      <p className=" text-3xl text-center">Education</p>
+      <p className=" text-3xl text-center">What I can do</p>
       <div className="  w-fit  flex flex-col justify-center">
         {eduInfo.map((eduInf, index) => {
           return <EduItems key={index} eduInfo={eduInf}></EduItems>;
