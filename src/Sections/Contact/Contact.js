@@ -33,10 +33,10 @@ const Contact = () => {
       id="contact"
       className=" block p-10 mx-6 max-h-[1120px] lg:h-[750px] lg:flex lg:flex-row lg:items-center lg:justify-center lg:mx-10"
     >
-      <form className=" block">
-        <div className=" flex flex-col items-center">
+      <form className=" block bg-slate-100 p-4 w-[100%] lg:w-[30%]">
+        <div className=" flex flex-col items-center p-3">
           <p className=" my-3 text-3xl">Get In Touch</p>
-          <div className=" my-12 lg:my-2 grid grid-cols-1 lg:grid-cols-6 lg:gap-3   gap-2  h-8 ">
+          <div className=" my-12 lg:my-2 grid grid-cols-1 lg:grid-cols-6 lg:gap-3  gap-2  h-8 ">
             <input
               className=" bg-inherit border-b border-teal-500 py-2 w-full text-gray-700 mr-3  px-2 leading-tight focus:outline-none lg:col-span-3"
               type="text"
@@ -45,14 +45,14 @@ const Contact = () => {
             <input
               type="text"
               placeholder=" Email"
-              className=" bg-inherit border-b border-teal-500 py-2 w-full text-gray-700 mr-3  px-2 leading-tight focus:outline-none lg:col-span-3"
+              className=" bg-inherit border-b border-teal-500 py-2 w-full max-w-fit text-gray-700 mr-3  px-2 leading-tight focus:outline-none lg:col-span-3"
             />
           </div>
-          <div className=" max-w-fit my-7">
+          <div className=" max-w-full my-7">
             <textarea
               rows={4}
-              cols={55}
-              className="bg-inherit border-b border-teal-500 focus:outline-none max-w-sm lg:max-w-[100%]   bg-slate-300"
+              cols={57}
+              className="bg-inherit border-b border-teal-500 focus:outline-none w-[100%] lg:max-w-[100%]   "
               placeholder="Write something"
             ></textarea>
           </div>
